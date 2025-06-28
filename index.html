@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🍃YINKOL FOODS - Organic Food Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="top-header"
+    <div class="container">
+      <!-- <span>🕒 Mon-Fri 8:00 AM - 20:00 PM Saturday Closed</span> -->
+      <!-- <span>📞 (+800) 111 2020, (+700) 333 44 555</span> -->
+      <div class="auth">
+        <!-- <span>👤 <a href="#">Login</a> / <a href="#">Signup</a></span> -->
+        <!-- <span>💚<sup>0</sup></span> -->
+        <!-- <span>🛒<sup>0</sup></span> -->
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="nav-bar">
+    <div class="container nav-content">
+      <!-- <h1 class="logo">🍃YINKOL<br>FOODS</h1> -->
+       <img class="logo" src="./logo.jpg" alt="">
+      <button class="hamburger" onclick="toggleMenu()" id="hamburgerBtn">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop ▾</a></li>
+        <li><a href="#">Service ▾</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Search Your Product" />
+        <button>🔍</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+   <!-- Hero Slider Section -->
+  <section class="hero-slider">
+    <!-- Slide 1 -->
+    <div class="hero-slide active">
+      <div class="hero-content">
+        <h2>Organic & Healthy <br>Vegan Food</h2>
+        <p>Experience the best of nature with our farm-fresh, organic products delivered right to your doorstep. Healthy living starts here.</p>
+        <button class="purchase-btn">Purchase</button>
+      </div>
+      <div class="hero-image">
+        <img src="https://thumbs.dreamstime.com/b/vegetables-meat-different-fresh-raw-56035417.jpg" alt="Vegan Food" />
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hero-slide">
+      <div class="hero-content">
+        <h2>Fresh & Local<br>Farm Produce</h2>
+        <p>Straight from the farm to your table — enjoy the taste of nature in every bite with our locally grown organic food.</p>
+        <button class="purchase-btn">Shop Now</button>
+      </div>
+      <div class="hero-image">
+        <img src="https://image.api.sportal365.com/process/smp-images-production/pulse.ng/27072024/ee72dfc6-79c3-4fbc-a6bb-08e00f896653" alt="Fresh Food" />
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="hero-slide">
+      <div class="hero-content">
+        <h2>Fast & Easy <br>Grocery Delivery</h2>
+        <p>Your favorite foods delivered fresh and fast. Skip the store — we’ll bring the market to your door.</p>
+        <button class="purchase-btn">Order Now</button>
+      </div>
+      <div class="hero-image">
+        <img src="https://citinewsroom.com/wp-content/uploads/2019/07/okadagh.jpg" alt="Delivery" />
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Top Features -->
+  <section class="features">
+    <div class="feature">
+      <img src="https://static.vecteezy.com/system/resources/previews/020/717/207/non_2x/free-shipping-green-van-icon-delivery-business-car-free-shipping-vector.jpg" alt="Free Shipping">
+      <h3>Free Shipping</h3>
+      <p>Free Shipping On All US</p>
+    </div>
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/5506/5506524.png" alt="Money Returns">
+      <h3>Money Returns</h3>
+      <p>Within 30 Days</p>
+    </div>
+    <div class="feature">
+      <img src="https://www.citypng.com/public/uploads/preview/hd-customer-service-support-247-green-icon-png-73581169686556368kb4lc3ex.png" alt="Support">
+      <h3>Support 24/7</h3>
+      <p>Contact Us 24 Hours A Day</p>
+    </div>
+  </section>
+
+  <!-- Product Sections -->
+  <section class="products">
+    <div class="product-card premium">
+      <h2>We Offer Premium & 100% Organic Food</h2>
+      <a href="#">Shop Now</a>
+    </div>
+
+    <div class="product-card special">
+      <p class="recipe">Special recipe</p>
+      <h2>Fresh cuts of Meat and Fish</h2>
+      <p>Delivering freshness you can see and taste.</p>
+    </div>
+
+    <div class="product-card sale">
+      <h2>Sale off 10%</h2>
+      <p>All Products</p>
+      <a href="#" class="order-btn">Order Now</a>
+    </div>
+  </section>
+
+
+  <section class="about-us" id="about"> 
+  <div class="about-content">
+    <h2>About Us</h2>
+    <p>
+      🍃YINKOL FOODS imports, exports and distributes a large variety of exotic food products. 
+      By continuous innovation and improvement our international assortment is tuned for the wishes 
+      of the ethnic market in USA, with the main focus on African, Caribbean and Asian products.
+      <strong>We love to talk!</strong> We're not afraid to talk to you. Need help or just don't like 
+      placing orders over the Net? Contact Us.
+    </p>
+    <p>
+      🍃YINKOL FOODS African market has been serving the Central New York area with top quality, 
+      name brand African food products. With our clientele mostly made up of, but not limited to 
+      West Africans, our goal in the coming years is to expand our establishment to better serve you, 
+      and play a significant role in bringing Africa to your door steps. You can count on 
+      🍃YINKOL FOODS.
+    </p>
+  </div>
+
+  <div class="about-image">
+    <img src="./passport picture.jpg" alt="Store Manager" />
+    <p class="name">Kolawole Adeyinka Saheed</p>
+    <p class="title">Store Manager</p>
+  </div>
+</section>
+
+
+
+<section class="location-section">
+  <h2>Location</h2>
+  <div class="location-container">
+    
+    <!-- Map -->
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.5186558419487!2d3.9915738!3d7.3815024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10399380354964a7%3A0xbf571322eb41adca!2sIyana%20Agbala%20adegbayi%2C%20Iwo%20road%20ibadan!5e0!3m2!1sen!2sng!4v1719599010000!5m2!1sen!2sng" 
+        width="100%" 
+        height="500" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <!-- Info Text -->
+    <div class="location-info">
+      <p>
+        Thanks so much for visiting our online store. Our team is excited to provide you with an 
+        impeccable online shopping experience and remains available to assist at any time. If you 
+        have questions, comments or concerns about your order or the content found within this website, 
+        please feel free to contact us via telephone or email and one of our experienced team members 
+        will get back to you right away.
+      </p>
+      <p>
+        Again, thanks for visiting our store and we look forward to serving you in the future.
+      </p>
+
+      <p><strong>NO 7, ADEGBAYI - KUELU ROAD, IYANA AGBALA IBADAN, OYO STATE.</strong></p>
+      <!-- <p></p> -->
+
+      <div class="store-hours">
+        <strong>Store Hours:</strong><br>
+        Monday – Friday: 10:00 AM to 10:00 PM<br>
+        Saturday: 10:00 AM to 10:00 PM<br>
+        Sunday: 10:00 AM to 9:00 PM
+      </div>
+
+      <a href="https://www.google.com/maps/place/Iyana+Agbala+adegbayi,+Iwo+road+ibadan/@7.3815024,3.9915738,17z/data=!4m6!3m5!1s0x10399380354964a7:0xbf571322eb41adca!8m2!3d7.3815024!4d3.9941487!16s%2Fg%2F11gtzfx_cd?hl=en&entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D" target="_blank" class="directions-btn">Get Directions</a>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="contact-section" id="contact">
+  <h2>Contact us</h2>
+
+  <!-- Contact Info -->
+  <div class="contact-info">
+    <div><span>📞</span> +234 912 811 8489   </div>
+    <div><span>📧</span> <a href="mailto:adeyinkakolawole395@gmail.com">sales@yinkolfoods.com</a></div>
+    <!-- <div><span>🔗</span> <a href="https://www.pkhfoods.com" target="_blank">www.pkhfoods.com</a></div> -->
+  </div>
+
+  <!-- Social Media -->
+  <div class="connect">
+    <p>Connect with us</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/profile.php?id=61577868985829&mibextid=JRoKGi" class="fa fa-facebook">Facebook</a>
+      <!-- <a href="#" class="x"><i class="fab fa-x-twitter"></i> @poukouhalalfood</a> -->
+      <a href="https://www.instagram.com/yinkolfoods?igsh=OTMxNDFpNWZidnl1" class="fa fa-instagram">Instagram</a>
+      <a href="https://wa.me/+2347038547788" class="fa fa-whatsapp">Whatsapp</a>
+      <!-- <a href="#" class="viber"><i class="fab fa-viber"></i> Viber</a> -->
+    </div>
+  </div>
+</section>
+
+<!-- Font Awesome Icons (required) -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+
+   <!-- Script for Hero Rotation -->
+  <script>
+    const slides = document.querySelectorAll('.hero-slide');
+    let index = 0;
+
+    function showNextSlide() {
+      slides[index].classList.remove('active');
+      index = (index + 1) % slides.length;
+      slides[index].classList.add('active');
+    }
+
+    setInterval(showNextSlide, 5000); // every 5 seconds
+
+
+
+      // Toggle Menu & Hamburger Animation
+  function toggleMenu() {
+    const nav = document.getElementById('navLinks');
+    const hamburger = document.getElementById('hamburgerBtn');
+    const searchBar = document.querySelector('.search-bar');
+
+    nav.classList.toggle('active');
+    searchBar.classList.toggle('active');
+    hamburger.classList.toggle('active');
+  }
+  </script>
+</body>
+</html>
